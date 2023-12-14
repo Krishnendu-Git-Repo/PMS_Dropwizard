@@ -1,0 +1,34 @@
+---
+logging:
+  level: INFO
+  loggers:
+    com.task: DEBUG
+
+#authentication:
+#  basic:
+#    realm: "your-realm"
+
+database:
+  # the name of your JDBC driver
+  #driverClass: com.mysql.jdbc.Driver
+
+  # the username
+  user: root
+
+  # the password
+  password: root
+
+  # the JDBC URL
+  url: jdbc:mysql://localhost:3306/pms
+    
+  properties:
+    charSet: UTF-8
+    hibernate.dialect: org.hibernate.dialect.MySQLDialect
+
+# config.yml
+smtp:
+  host: smtp.gmail.com
+  port: 587
+  username: krishnendusamanta762@gmail.com
+  password: sszw xkfj ezdy qbzx
+  tls: true
